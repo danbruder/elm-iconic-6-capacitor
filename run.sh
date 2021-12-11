@@ -1,0 +1,1 @@
+ionic capacitor run ios --port=1234 --external -l --consolelogs --watch
