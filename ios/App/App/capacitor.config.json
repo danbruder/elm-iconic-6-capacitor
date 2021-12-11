@@ -1,0 +1,9 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "foo",
+	"webDir": "public",
+	"bundledWebRuntime": true,
+	"server": {
+		"url": "http://192.168.1.128:1234"
+	}
+}

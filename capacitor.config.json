@@ -1,6 +1,6 @@
 {
-  "appId": "com.example.app",
+  "appId": "io.ionic.starter",
   "appName": "foo",
-  "webDir": "\u0017public",
-  "bundledWebRuntime": false
+  "webDir": "public",
+  "bundledWebRuntime": true
 }

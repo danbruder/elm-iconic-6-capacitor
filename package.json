@@ -5,11 +5,20 @@
     "author": "Dan Bruder <danb@structionsite.com>",
     "license": "MIT",
     "dependencies": {
-        "@capacitor/cli": "^3.3.3",
-        "@capacitor/core": "^3.3.3",
+        "@capacitor/app": "1.0.7",
+        "@capacitor/core": "3.3.3",
+        "@capacitor/haptics": "1.1.3",
+        "@capacitor/ios": "^3.3.3",
+        "@capacitor/keyboard": "1.2.0",
+        "@capacitor/status-bar": "1.0.6",
         "elm-spa": "^6.0.4"
     },
     "scripts": {
-        "start": "elm-spa server"
+        "start": "elm-spa server",
+        "ionic:serve": "elm-spa server",
+        "ionic:build": "elm-spa build"
+    },
+    "devDependencies": {
+        "@capacitor/cli": "3.3.3"
     }
 }
